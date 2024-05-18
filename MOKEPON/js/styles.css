@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Hachi+Maru+Pop&display=swap');
+body{
+    font-family: 'Agbalumo', 'Hachi Maru Pop';
+    background-color: #610C9F;
+}
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    color: white;
+    font-size: 64px;
+}
+.subtitulo{
+    color: white;
+    font-size: 32px;
+}
+
+.tarjetas, .tarjetas-ataques{
+    display: flex;
+    gap: 15px;
+}
+
+.tarjeta-de-mokepon{
+    width: 180px;
+    height: 100px;
+    background-color: #940B92;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #940B92;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tarjeta-de-mokepon img {
+    width: 70px;
+}
+
+input {
+   display: none; 
+}
+
+input:checked + label {
+    background-color: rgb(65, 5, 62);
+}
+
+#boton-mascota {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    box-sizing:border-box;
+    margin-top: 20px;
+    border: 2px solid #940B92;
+    border-radius: 50px;
+    font-family:'Hachi Maru Pop' ;
+}
+
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+}
+.boton-de-ataque {
+    background-color: #940B92;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: transparent;
+    width: 200px;
+    color: white;
+}
+#mensajes{
+    width: 180px;
+    background-color: #7a21cd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#boton-reiniciar{
+    border: none;
+    color: cornflowerblue;
+   background-color: #7a21cd;
+}
+.ataques{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+
+@media (max-width: 360px){
+    .tarjetas {
+        flex-direction:column;
+    }
+}
+@media (max-width: 360px){
+    .tarjetas-ataques {
+        flex-direction:column;
+    }
+}
+#ataques-jugador, #ataques-enemigo {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}

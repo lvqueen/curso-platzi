@@ -1,0 +1,56 @@
+
+
+.first {
+ color: white;
+ background-color: red;
+ font-size: 32px;
+ text-align: center;
+}
+.number1, .number3, .number5 {
+background-color: lightcoral;
+font-family: 'verdana', 'DejaVu Sans', 'sans-serif';
+}
+#number2 {
+    color: blue;
+    font-size: 36px;
+    background-color: white;
+}
+
+.number3 {
+    font-size: 24px;
+}
+
+#number4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.button1, .button2 {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman';
+}
+.button1 {
+    color: white;
+    background-color: #000;
+}
+.button2  {
+    color: #000;
+    background-color: yellow;
+    border-color:black;
+}
+.avatar.proportioned {
+ width: 300px;
+ height: auto;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 300px;
+}
+
+.ancestor .content {
+    background-color: yellow;
+    color: red;
+}
